@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "hc05")(type "KiCad")(uri "${KIPRJMOD}/lib/hc05.kicad_sym")(options "")(descr ""))
+  (lib (name "ncp5500")(type "KiCad")(uri "${KIPRJMOD}/lib/ncp5500.kicad_sym")(options "")(descr ""))
+)
