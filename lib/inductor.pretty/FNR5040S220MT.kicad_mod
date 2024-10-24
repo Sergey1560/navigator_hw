@@ -1,0 +1,120 @@
+(footprint "FNR5040S220MT"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -2.13 -2.58 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "68f1d908-0ded-4b0e-a312-abee05af4378")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "FNR5040S220MT"
+		(at 2.43 1.23 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0cd53f01-7117-453e-854d-209ab0511829")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8e8ba60e-d0f5-43af-b9fa-1840aa7b46e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7bf01c96-87a5-4ca6-ba61-640b72a093ec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "23e03aee-47e4-4572-b28f-53abe59a81da")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start 0 -5)
+		(end 5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "4539a9bd-b865-4b41-94ca-57e92cc036af")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "09384925-ce96-4f6b-b32e-db6ea272b701")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 2.5 -0.625)
+		(size 4.2 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "ba1a5c9a-62ef-4aff-bc4e-da579b313f87")
+	)
+	(pad "2" smd roundrect
+		(at 2.5 -4.375)
+		(size 4.2 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "2c9a3c2d-1c22-454e-baee-a5dc209a09f3")
+	)
+	(model "${KIPRJMOD}/3d/fnr5040s.STEP"
+		(offset
+			(xyz 2.5 2.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)

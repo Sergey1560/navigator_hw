@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "hc05")(type "KiCad")(uri "${KIPRJMOD}/lib/hc05.kicad_sym")(options "")(descr ""))
   (lib (name "ncp5500")(type "KiCad")(uri "${KIPRJMOD}/lib/ncp5500.kicad_sym")(options "")(descr ""))
+  (lib (name "logo")(type "KiCad")(uri "${KIPRJMOD}/lib/logo.kicad_sym")(options "")(descr ""))
 )
